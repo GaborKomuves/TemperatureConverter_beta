@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.2-ea" fx:controller="com.example.temperatureconverter.TempConvController">
+    <padding>
+        <Insets bottom="30" left="30" right="30" top="30" />
+    </padding>
+    <hgap>10</hgap>
+    <vgap>10</vgap>
+
+    <Label text="Enter Temperature:" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+    <TextField fx:id="temperatureInput" prefHeight="25.0" prefWidth="112.0" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+
+    <Button onAction="#convertToFahrenheit" text="Convert to Fahrenheit" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+    <Button onAction="#convertToCelsius" text="Convert to Celsius" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+
+    <Label fx:id="resultLabel" GridPane.columnIndex="0" GridPane.columnSpan="2" GridPane.rowIndex="2" />
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>
