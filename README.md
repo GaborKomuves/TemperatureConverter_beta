@@ -43,7 +43,8 @@ The **Temperature Converter** is a simple JavaFX application that allows users t
   \( C = (F - 32) \times 5/9 \)
 
 ## Screenshots
-![Temperature Converter Screenshot](https://github.com/GaborKomuves/TemperatureConverter_beta/blob/main/screenshot.png)
+![image](https://github.com/user-attachments/assets/609ebd94-b6b9-4a29-853c-5050ac98c48d)
+
 
 ## Future Enhancements
 - Add Kelvin conversions
